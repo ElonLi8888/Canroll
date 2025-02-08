@@ -23,7 +23,7 @@ def resize_with_aspect_ratio(image, width=None, height=None, inter=cv2.INTER_ARE
 
 # Function to detect the can
 def detect_cans_in_video():
-   cap = cv2.VideoCapture("/Users/pl1005890/Desktop/notcan.mp4")
+   cap = cv2.VideoCapture("rollcan.mp4")
 
    while True:
        ret, frame = cap.read()
